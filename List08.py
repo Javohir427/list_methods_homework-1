@@ -6,4 +6,11 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    a = []
+    for i in fruits:
+        if i == 'apple':
+            a
+        else:
+            a.append(i)
+    return a
+print(main(["apple", "apple", "apple", "apple", "kiwi"]))     
